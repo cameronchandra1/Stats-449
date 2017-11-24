@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1507481845470.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B311FAE1",
+    "lastKnownWriteTime" : 7020395354101121024,
+    "last_content_update" : 1507481845470,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A4117640",
+        "caption" : "datmat",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=datmat&cache_key=A4117640",
+        "displayedObservations" : "8",
+        "environment" : "",
+        "object" : "datmat",
+        "preview" : "0",
+        "totalObservations" : "8",
+        "variables" : "2"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

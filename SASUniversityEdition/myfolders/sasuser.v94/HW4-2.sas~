@@ -1,0 +1,21 @@
+options nodate pageno = 1 formdlim='';
+proc format;
+	value trtf 1='Placebo'
+				2='Aspirin';
+	value mif 1='Yes'
+				2='No';
+	run;
+data aspirin;
+	input trt mi count;
+datalines;
+1 1 189
+1 2 10845
+2 1 104
+2 2 10933
+;
+run;
+proc freq data = aspirin;
+	weight count;
+	tables trt*mi / chisq expected measures;
+	format trt trtf. mi mif.;
+run;
